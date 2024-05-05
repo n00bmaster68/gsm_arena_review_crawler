@@ -21,27 +21,27 @@ You can install the required dependencies by running the following command:
 
 ## Usage
 ### Requests & BeautifulSoup (bs4) approach, run following commands accordingly:
-`cd .\gsm_arena\demo_with_request`
-`python crawl_data_with_request.py`
+1. `cd .\gsm_arena\demo_with_request`
+2. `python crawl_data_with_request.py`
 => The output will save as json file after the process is done
 
 ### Selenium approach, run following commands accordingly:
-`cd .\gsm_arena\demo_with_selenium`
-`python crawl_data_with_selenium.py`
-=> The output will save as json file after the process is done
+1. `cd .\gsm_arena\demo_with_selenium`
+2. `python crawl_data_with_selenium.py`
+- => The output will save as json file after the process is done
 
 ### Scapy approach:
 
 #### With commands:
-`cd .\gsm_arena\gsm_arena_product_review\gsm_arena_product_review`
-`scrapy crawl gsm_arena_product_review -o {your output file} -a start_url={your URL}`
+1. `cd .\gsm_arena\gsm_arena_product_review\gsm_arena_product_review`
+2. `scrapy crawl gsm_arena_product_review -o {your output file} -a start_url={your URL}`
 
 #### With GUI:
-`cd C:\Users\84901\Desktop\phanmemmnm\gsm_arena\gui_app`
-`python app.py`
-Then a windows like this will pop up:
+- `cd C:\Users\84901\Desktop\phanmemmnm\gsm_arena\gui_app`
+- `python app.py`
+- Then a windows like this will pop up:
 ![[Starting UI]](app_screenshots/app_starter.png)
-This app provides user 2 ways to crawl data:
+##### This app provides user 2 ways to crawl data:
 - Crawl with one single URL
 ![[Single URL UI]](app_screenshots/single_url.png)
 - Crawl with a file containing URLs
