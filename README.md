@@ -1,4 +1,4 @@
-# gsm_arena_review_crawler
+# 🌐 GSM_ARENA_REVIEW_CRAWLER
 
 ## Overview
 This project compares three different approaches to crawl websites: 
